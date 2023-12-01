@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  },
+  "scripts": {
+    "bulid" : "npx tailwindcss -i ./src/input.css -o ./public/style/app.css --watch"
+  }
+}
